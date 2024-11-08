@@ -1,0 +1,20 @@
+yash: main.o add.o sub.o mains veins lib
+main.o:
+	gcc -c main.c
+add.o:
+	gcc -c add.c
+sub.o:
+	gcc -c sub.c
+mains:
+	gcc -o mains main.c add.c sub.c
+veins:
+	gcc -o vein main.o add.o sub.o
+clean:
+	rm -rf *.o
+	rm -rf a.out
+	rm -rf mains vein
+lib:
+	ar -crv output.a add.o sub.o
+dlib:
+	gcc -o out.so add.o sub.o -shared -fPIC
+
