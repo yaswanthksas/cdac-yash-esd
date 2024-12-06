@@ -1,0 +1,2 @@
+/home/cdac/Desktop/ddy/wait_queue/waitqueue_anu/dyna.o
+

@@ -1,0 +1,2 @@
+/home/cdac/Desktop/ddy/wait_queue/wait_y/wait_dyna/wait_d.o
+
