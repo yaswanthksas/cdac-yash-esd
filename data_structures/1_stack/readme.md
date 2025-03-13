@@ -1,1 +1,2 @@
-# basic stack : push, pop, peep operations 
+# basic stack : push, pop, peep operations @stack_struct.c
+
