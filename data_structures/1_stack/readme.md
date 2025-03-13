@@ -6,6 +6,6 @@
 
 # 3. To convert infix operation to postfix operation : [infix to postfix](./infix_post.c)
 
-# 4. To convert infix operation to prefix operation : 
+# 4. To convert infix operation to prefix operation : [infix to prefix](./stack_operations/infix_prefix.c) 
 
-# 5. To evaluate the postfix expression : 
+# 5. To evaluate the postfix expression : [evaluating postfix](./stack_operations/eval_postfix.c) 
