@@ -5,3 +5,5 @@
 # 2. To find if the string is balanced or not : [Balanced ](./balanced.c) 
 
 # 3. To convert infix operation to postfix operation : [infix to postfix](./infix_post.c)
+
+# 4. To convert infix operation to prefix operation : 
