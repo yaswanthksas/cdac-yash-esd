@@ -1,2 +1,2 @@
-# 1. basic stack : push, pop, peep operations [basic_stack_operations](#stack_struct.c)
+# 1. basic stack : push, pop, peep operations [basic_stack_operations](./stack_struct.c)
 
