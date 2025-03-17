@@ -3,6 +3,8 @@
 ## Issue may be : [cque.c](./cque.c)
 
 **deque function edit**
+
+```
 int deque() {
     int x = -999;  // Default value for underflow case
     if (!underflow()) {  
@@ -16,3 +18,6 @@ int deque() {
     }
     return x;
 }
+```
+
+
