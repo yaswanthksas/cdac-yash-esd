@@ -1,3 +1,3 @@
 # Basic Linked List 
-
-## go to [basic linked list 1.c](./sup/1.c)
+## 0. very basic link [new.c](./new.c) 
+## 1. go to [basic linked list 1.c](./sup/1.c)
