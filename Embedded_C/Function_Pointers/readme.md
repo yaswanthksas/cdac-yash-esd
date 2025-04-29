@@ -1,3 +1,3 @@
 # Basics 
 
-## Function Pointer Using Structure Typedef
+## Function Pointer Using Structure Typedef (.) operator
