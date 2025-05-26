@@ -1,6 +1,6 @@
 # Basics 
 
-## Function Pointer Using Structure Typedef (.) operator
+## Function Pointer Using Typedef (.) operator
 
 Here's a **basic explanation and example** of a function pointer typedef in C:
 
