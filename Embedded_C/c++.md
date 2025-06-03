@@ -83,7 +83,7 @@ int main() {
 ![image](https://github.com/user-attachments/assets/d1c8689e-5444-4384-b9e7-07b044560102)
 
 ### Vector of Pairs : 
-'''
+```
 
 #include <iostream>
 #include <vector> // or use #include <bits/stdc++.h>
@@ -97,11 +97,11 @@ int main() {
     cout << pairs[1].first << " " << pairs[1].second << endl; // Output - 30 40
     return 0;
 }
-'''
+```
 ![image](https://github.com/user-attachments/assets/7060ad97-b766-471d-b25b-4ca3376447bf)
 
 # Iterators : 
-'''
+```
 #include <iostream>
 #include <vector> // or use #include <bits/stdc++.h>
 using namespace std;
@@ -133,7 +133,7 @@ int main() {
     return 0;
 }
 
-'''
+```
 
 ![image](https://github.com/user-attachments/assets/2c8d73dd-a241-4e10-b28d-f29cd80936c8)
 
