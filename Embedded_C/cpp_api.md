@@ -21,3 +21,4 @@
 #### vector <int> :: reverse_iterator r_iter_e = v.end();      // access *(--r_iter_e)
 #### v.size()   //length of vector 
 
+#### v.insert(position,that_start , that_end); 
