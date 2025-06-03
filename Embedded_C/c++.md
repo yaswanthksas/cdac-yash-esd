@@ -139,7 +139,7 @@ int main() {
 
 
 ### Printing Vector : 
-''' 
+```
 #include <iostream>
 #include <vector> // or use #include <bits/stdc++.h>
 using namespace std;
@@ -173,11 +173,11 @@ int main() {
     return 0;
 }
 
-'''
+```
 
 
 ### Insert Function : 
-''' 
+```
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -202,12 +202,12 @@ int main() {
     return 0;
 }
 
-''' 
+```
 # ![image](https://github.com/user-attachments/assets/b39557da-c937-461c-bb8b-736613f67300)
 
 
 ### Deletion Functions : 
-''' 
+```
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -225,9 +225,9 @@ int main() {
     cout << endl;
     return 0;
 }
-''' 
+```
 ### size(),pop_back(),swap(),clear(),empty() 
-''' 
+```
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -253,8 +253,7 @@ int main() {
     cout << endl; // Output - 100 200 300 
     return 0;
 }
-
-'''
+```
 
 # ![image](https://github.com/user-attachments/assets/7dc43b9b-5a33-4c6f-8388-eaec05ab9466)
 
