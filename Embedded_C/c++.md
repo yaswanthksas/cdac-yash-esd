@@ -11,7 +11,7 @@
 
 ### Example: 
 
-''' 
+```
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -35,7 +35,7 @@ int main() {
     
     return 0;
 }
-'''
+```
 
 ![image](https://github.com/user-attachments/assets/6ed5e76a-683e-41cb-a231-a23bc436a87d)
 
