@@ -9,7 +9,7 @@
 
 
 
-### Example: 
+### Example of pair: 
 
 ```
 #include <bits/stdc++.h>
