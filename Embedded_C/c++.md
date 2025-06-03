@@ -65,7 +65,7 @@ int main() {
 
 ![image](https://github.com/user-attachments/assets/414ca9c7-bbd0-4b56-8452-d84bbb7f6281)
 
-'''
+```
 #include <iostream>
 #include <vector> // or use #include <bits/stdc++.h>
 using namespace std;
@@ -78,7 +78,7 @@ int main() {
     return 0;
 }
 
-'''
+```
 
 ![image](https://github.com/user-attachments/assets/d1c8689e-5444-4384-b9e7-07b044560102)
 
