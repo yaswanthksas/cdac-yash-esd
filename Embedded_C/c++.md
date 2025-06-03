@@ -43,7 +43,7 @@ int main() {
 # Vector : 
 ![image](https://github.com/user-attachments/assets/32648e2e-200b-4bd2-b211-0d46af51e913)
 
-'''
+```
 #include <iostream>
 #include <vector>
 // or use #include <bits/stdc++.h>
@@ -60,6 +60,8 @@ int main() {
     vector<int> v3(v1);
     return 0;
 }
+
+```
 
 ![image](https://github.com/user-attachments/assets/414ca9c7-bbd0-4b56-8452-d84bbb7f6281)
 
