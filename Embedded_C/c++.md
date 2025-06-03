@@ -1,12 +1,12 @@
 # C++ 
 ## Pair 
-<pre>
+
     ```
         Pair<DataType1, DataType2> variableName; // Declaration
         variableName.first = value1; // Assigning a value to the first element
         variableName.second = value2; // Assigning a value to the second element
     ```
-</pre>
+
 
 
 ### Example: 
