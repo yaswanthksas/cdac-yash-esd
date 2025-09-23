@@ -18,6 +18,7 @@ void insertb(int num){
     else if(start != NULL){
         temp->next = start;
         start->prev = temp; 
+        start = temp;
     }
 }
 void display(){
