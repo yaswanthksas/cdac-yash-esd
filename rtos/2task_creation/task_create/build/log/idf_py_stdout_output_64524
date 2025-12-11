@@ -1,0 +1,5 @@
+[1/4] cd /home/cdac/Desktop/rtos_y/task_creation/task_create/build/esp-idf/esptool_py && /home/cdac/.espressif/python_env/idf5.3_py3.8_env/bin/python /home/cdac/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/cdac/Desktop/rtos_y/task_creation/task_create/build/partition_table/partition-table.bin /home/cdac/Desktop/rtos_y/task_creation/task_create/build/task_create.bin
+task_create.bin binary size 0x2b670 bytes. Smallest app partition is 0x100000 bytes. 0xd4990 bytes (83%) free.
+[2/4] Performing build step for 'bootloader'
+[1/1] cd /home/cdac/Desktop/rtos_y/task_creation/task_create/build/bootloader/esp-idf/esptool_py && /home/cdac/.espressif/python_env/idf5.3_py3.8_env/bin/python /home/cdac/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/cdac/Desktop/rtos_y/task_creation/task_create/build/bootloader/bootloader.bin
+Bootloader binary size 0x6850 bytes. 0x7b0 bytes (7%) free.

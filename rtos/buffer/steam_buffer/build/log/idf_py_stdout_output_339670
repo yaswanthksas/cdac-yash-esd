@@ -1,0 +1,312 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15532
+load:0x40080400,len:4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (29) boot: ESP-IDF v5.3-dev-1162-gee3a46dbc3 2nd stage bootloader[0m
+[0;32mI (29) boot: compile time Jan  2 2024 15:53:57[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (35) boot: chip revision: v3.0[0m
+[0;32mI (39) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (48) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (58) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (69) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (76) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (84) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (91) boot: End of partition table[0m
+[0;32mI (96) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=09978h ( 39288) map[0m
+[0;32mI (118) esp_image: segment 1: paddr=000199a0 vaddr=3ffb0000 size=02210h (  8720) load[0m
+[0;32mI (121) esp_image: segment 2: paddr=0001bbb8 vaddr=40080000 size=04460h ( 17504) load[0m
+[0;32mI (130) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=136f4h ( 79604) map[0m
+[0;32mI (159) esp_image: segment 4: paddr=0003371c vaddr=40084460 size=088fch ( 35068) load[0m
+[0;32mI (180) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (180) boot: Disabling RNG early entropy source...[0m
+[0;32mI (191) cpu_start: Multicore app[0m
+[0;32mI (200) cpu_start: Pro cpu start user code[0m
+[0;32mI (200) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (200) cpu_start: Application information:[0m
+[0;32mI (203) cpu_start: Project name:     steam_buffer[0m
+[0;32mI (208) cpu_start: App version:      1[0m
+[0;32mI (213) cpu_start: Compile time:     Jan  2 2024 15:53:46[0m
+[0;32mI (219) cpu_start: ELF file SHA256:  f3cc4265c...[0m
+[0;32mI (224) cpu_start: ESP-IDF:          v5.3-dev-1162-gee3a46dbc3[0m
+[0;32mI (231) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (236) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (240) cpu_start: Chip rev:         v3.0[0m
+[0;32mI (245) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (252) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (258) heap_init: At 3FFB2AE0 len 0002D520 (181 KiB): DRAM[0m
+[0;32mI (265) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (271) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (277) heap_init: At 4008CD5C len 000132A4 (76 KiB): IRAM[0m
+[0;32mI (285) spi_flash: detected chip: generic[0m
+[0;32mI (288) spi_flash: flash io: dio[0m
+[0;33mW (292) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (306) main_task: Started on CPU0[0m
+[0;32mI (316) main_task: Calling app_main()[0m
+In main function
+[0;32mI (316) main_task: Returned from app_main()[0m
+In send
+In receive
+hello
+
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15532
+load:0x40080400,len:4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (29) boot: ESP-IDF v5.3-dev-1162-gee3a46dbc3 2nd stage bootloader[0m
+[0;32mI (29) boot: compile time Jan  2 2024 15:53:57[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (35) boot: chip revision: v3.0[0m
+[0;32mI (39) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (48) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (58) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (69) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (76) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (84) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (91) boot: End of partition table[0m
+[0;32mI (96) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=09978h ( 39288) map[0m
+[0;32mI (118) esp_image: segment 1: paddr=000199a0 vaddr=3ffb0000 size=02210h (  8720) load[0m
+[0;32mI (121) esp_image: segment 2: paddr=0001bbb8 vaddr=40080000 size=04460h ( 17504) load[0m
+[0;32mI (130) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=136f4h ( 79604) map[0m
+[0;32mI (159) esp_image: segment 4: paddr=0003371c vaddr=40084460 size=088fch ( 35068) load[0m
+[0;32mI (180) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (180) boot: Disabling RNG early entropy source...[0m
+[0;32mI (191) cpu_start: Multicore app[0m
+[0;32mI (200) cpu_start: Pro cpu start user code[0m
+[0;32mI (200) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (200) cpu_start: Application information:[0m
+[0;32mI (203) cpu_start: Project name:     steam_buffer[0m
+[0;32mI (208) cpu_start: App version:      1[0m
+[0;32mI (213) cpu_start: Compile time:     Jan  2 2024 15:53:46[0m
+[0;32mI (219) cpu_start: ELF file SHA256:  f3cc4265c...[0m
+[0;32mI (224) cpu_start: ESP-IDF:          v5.3-dev-1162-gee3a46dbc3[0m
+[0;32mI (231) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (236) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (240) cpu_start: Chip rev:         v3.0[0m
+[0;32mI (245) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (252) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (258) heap_init: At 3FFB2AE0 len 0002D520 (181 KiB): DRAM[0m
+[0;32mI (265) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (271) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (277) heap_init: At 4008CD5C len 000132A4 (76 KiB): IRAM[0m
+[0;32mI (285) spi_flash: detected chip: generic[0m
+[0;32mI (288) spi_flash: flash io: dio[0m
+[0;33mW (292) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (306) main_task: Started on CPU0[0m
+[0;32mI (316) main_task: Calling app_main()[0m
+In main function
+[0;32mI (316) main_task: Returned from app_main()[0m
+In send
+In receive
+hello
+
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x3 (DOWNLOAD_BOOT(UART0/UART1/SDIO_REI_REO_V2))
+waiting for download
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15532
+load:0x40080400,len:4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (29) boot: ESP-IDF v5.3-dev-1162-gee3a46dbc3 2nd stage bootloader[0m
+[0;32mI (29) boot: compile time Jan  2 2024 15:53:57[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (35) boot: chip revision: v3.0[0m
+[0;32mI (39) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (48) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (58) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (69) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (76) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (84) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (91) boot: End of partition table[0m
+[0;32mI (96) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=09978h ( 39288) map[0m
+[0;32mI (118) esp_image: segment 1: paddr=000199a0 vaddr=3ffb0000 size=02210h (  8720) load[0m
+[0;32mI (121) esp_image: segment 2: paddr=0001bbb8 vaddr=40080000 size=04460h ( 17504) load[0m
+[0;32mI (130) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=136f4h ( 79604) map[0m
+[0;32mI (159) esp_image: segment 4: paddr=0003371c vaddr=40084460 size=088fch ( 35068) load[0m
+[0;32mI (180) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (180) boot: Disabling RNG early entropy source...[0m
+[0;32mI (191) cpu_start: Multicore app[0m
+[0;32mI (200) cpu_start: Pro cpu start user code[0m
+[0;32mI (200) cpu_start: cpu freq: 16 �&�J��}������ Application information:[0m
+[0;32mI (203) cpu_start: Project name:   fer[0m
+[0;32mI (208)�ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x3 (DOWNLOAD_BOOT(UART0/UART1/SDIO_REI_REO_V2))
+waiting for download
+� �x� ��xxx � ����x� ���� � �x� � ���������� ���� �����x � x � ��x� �x�� � x � � x x��xxx x�x��x�xx��xx x�xx  xx�x x� x�x� �x�� � x ���� � x��x xx�xx� x x�x xxx�  �x x�x �xx� x�x� xx�xx � � x�x�x�x��x�x�x�� x�� � � x ���x xx�xx x��� � xxxxx� � �  �xxxx �x�x�x�� �  � � x xx �x�x�x�� �  � � x �xx �x�x�x�� �  � � x� x� ��x �x�x�x�� �  � � x � �xx �x�x�x�� �  � � x�� xx �x�x�x�� �  � �x � x�x� �xxx��  x��x� x ��  �x�x xx � �x��x�x�����x �  �x�x  �x�� � x����x�x� � ���� � x �xxx�x����� �������x �  �x�x  �x�� �  �� � ���� � � � � x �xxx�x�� �x��x��������x �  �x�x  �x�� �  �� � � � � �� � � x �xxx�x�� ��x �  �x�x  �x�� �  �� � � � � �� � �� x �xxx�x�����x� � ��x � x�x� �x�x� � �  �� � � � ���� �� �x � �� ��x ����������x�x�� � x���x�xx �� x�x� �x�� �x x�x xxxx�  x  ���xx��x���xx �xxx�x�x � �������xx��xxxxx��  ����� �x x x�� ������ � ��� �x x�xx �� x�x� � �x�x  �xxx�x� ��x �x�x� � �� ��x ����������x�x�� � x���x�xx �� x�x� �x�� �� x�x�� x�� �xx � �x��x��xx ��xx x� � ���� ���� ���� �� � �x�����x��������x������� ��x �x�x� � �� ��x ����������x�x�� � x��� �xx �� x�x� �x�� �x�xx � �x��x x�x�xx �� x�x� � �x�x  �xxx�x� ��x �x�x� � �� ��x ����������x�x�� � x���x��xx �� x�x� �x�� ��  �x��  ���xxx�x��x�x��x�x�x�� ���x���x ��� ��x �x�x� � �� ��x ����������x�x�� � x���x�xx �� x�x� �xxx�x� x�������� ���x xx� ���x xxxx � � � � � � ���� � �� �x� �x�x� ��x �x�x� � �� ��x ����������x�x�� � x �� ��xx �� x�x� �xxx�x� x�������� ���x xx� �x�x� �xx � � � � � � ���� �  x��x�x� ��x �x�x� � �� ��x ����������x�x�� � x �� �xx �� x�x� �xxx�x� x�������� ���x xx� ��  �x x� � ���xx�x�xx ���� ����x�x x� ��x �x�x� � �� ��x ����������x�x�� � xx�����xx �� x�x� �x�� �x x�x x  �x��x�x� ���x��x  �x�x x� �x� �x�x� �x�x� x� ���x�xxx�x xxxx�x�x�� ��x �x�x� � �� ��x ����������x�x�� � xx�� �xx �� x�x� �x�� � x x� �x�� �x��x�x� � xx x  �xxx���� ��x �x�x� � �� ��x ����������x�x�� � x������xx �� x�x� �x�� �� �� � � �x x xx � � � � � � � � � � � � �xxx�x x�xx � � � � � � � � � � xx� xx ���x x ���x�x�x�xx � � � � �xxx�x� � �x� ��x �x�x� � �� ��x ����������x�x�� � x���x�xx �� x�x� �x�� � � � ���x�x� � � � � � � � � � � � � � ��xx��x x�� � �x  �x  � � � � � � � � � � � ���� � � � � �x� � � � � � � � ���� � � ��� ��x �x�x� � �� ��x ����������x�x�� � x������xx �� x�x� �x�� � � � �  �x�xxx�x�x�� � � � � � � � � � ���x�  � �x  �x  � � � � � � � � � � � � � � � � � � � ��� � � � � � � � � � � � ��� ��x �x�x� � �� ��x ����������x�x�� � x � ��xx �� x�x� �x�� � ���� ���x x  �x�x�x� � � � � � � � � � ���x x  �x�x�x� �    � � � � � � � � � � � � � � � � � � � � � � � � � � � � ��� ��x �x�x� � �� ��x ����������x�x�� � xx� �xx �� x�x� �x�� �x x� � ���x� � x x� �x�� �x��x�x� � �x x  �xxx� ��x �x�x� � �� ��x ����������x�x�� � xx����xx �x�x� xxx�x��x x�xxx�� ���xxx�x��xxx� � � ���� � x  � �x�x�� � � � � � ���� � ���x  � �x�x������� �� � � ���� � ���x��x�xxx�� �x�x���� � � � x ����x���� � �xx �x�x  x� ��x �x�x� � �� ��x ����������x�x�� � x � � �xx �x�x� xxx�x��x x�xxx�� ���xxx�x��xxx� � � ���� � x  � �x�x�� � � � �x�x�  � ���x  � �x�x�������x�x  � � � � ���x��x�xxx�� ������� � � � � x � � ������� �xx � �x�x  �x� ��x �x�x� � �� ��x ����������x�x�� � x ���� �xx �x�x� xxx�x��x x�xxx�� ���xxx�x��xxx� � ������� � x  � �x�x�� � � � �� x x  � ���x  � �x�x�� �� � � � � � � � ���x��x�xxx�� � �� ����� � � � x � ����x�� � ��xx � �x�x  �x� ��x �x�x� � �� ��x ����������x�x�� � x ���� �xx �x�x� xxx�x��x x�xxx�� ���xxx�x��xxx� � ������� � x  � �x�x�� � � ���� � ���� � ���x  � �x�x�� �� � � � � ���� � ���x��x�xxx�� ��������� �� � � x ����x���� � ��xx �x�x  x� ��x �x�x� � �� ��x ����������x�x�� � x �x��x�xx �x�x� xxx�x��x x�xxx�� ���xxx�x��xxx� � � ����� � x  � �x�x�� � � ���������� ��  ���x  � �x�x�� �� � � � �� ����� � ���x��x�xxx�� � � ���x  � � x ����x�� ���� �xx � �x�x  �x� ��x �x�x� � �� ��x ����������x�x�� � x � � �xx �� x�x� �x�� � �x�x  �xx � �    ���x�x�x�� � x x� �x�� �x��x�x� �  � ���x�x�x�xx � � � x � � � � ��� ��x �x�x� � �� ��x ����������x�x�� � x � � �xx �� x�x� �x�� �  x��x�x x  �x��x�x� ���x��x  �x�x x� �x� �x�x� �x�x� x� ���x�xxx�x xxxx�x�x�� ��x �x�x� � �� ��x ����������x�x�� � x �x� �xx ��  xxxx�� �x x� �x�� �x�xx � �x��x x�x�xx �   x� ��x �x�x� � �� ��x ����������x�x�� � x��� � �xx ��  xxxx�� �x x� �x�� � x��x� ��  xx ��� �x x� � �x�x�xxx� �� x� �xxx� ��x �x�x� � �� ��x ����������x�x�� � x��� � �xx ��  xxxx�� �x x� �x�� ��  xx ���x�xxx x�� � ���� � � � � � � � � �x�x� ��x �x�x� � �� ��x ����������x�x�� � x��� � �xx ��  xxxx�� �x x� �x�� �    �x��x x  �x��x�x� �x�x�x�x�x�x��x  �x��x�x�x���� ��x �x�x� � �� ��x ����������x�x�� � x��� ����xx ��  xxxx�� �x x� �x�� � x��x�xxxxx  � ���x x��xxx�� � � � � ��� �xxx x��xx� xxx�x�xxx�x� ��x �x�x� � �� ��x ����������x�x�� � x��� � �xx ��  xxxx�� �x x� �x�� �    ���xxx�x�x��x�x�x�� � � � � � � ��� ��x �x�x� � �� ��x ����������x�x�� � x��� ����xx ��  xxxx�� �x x� �x�� �� x�x�� x�� �xx � �x��x��xxx�� � � � � ��xx x� � ���� ���� ���� �� � �x�����x�������� ������� ��x �x�x� � �� ��x ����������x�x�� � x��� �x�xx ��  xxxx�� �x x� �x�� �x  �x  ���x�� �xx ���x �x x��x�������� � ���x��� x  ��������x��� xx�x�x�� ��x �x�x� � �� ��x ����������x�x�� � x������ ��xx ��  xxxx�� �x x� �x�� �x x�x xxxx�  x x�� � � � � � � � � � ���xx��x���xx �xxx�x�x � �������xx��xxxxx��  ����� �x x x���� ��x �x�x� � �� ��x ����������x�x�� � x������ �xx ��  xxxx�� �x x� �x�� �x�x��x� ��  �x��  ���xxx�x�� � � � � ��� ��x ��� ��x �x�x� � �� ��x ����������x�x�� � x���������xx ��  xxxx�� �x x� �x�� �x�x   ��  �x��  ���xxx�x�� � � � � ���x���xx�x� ��� ��x �x�x� � �� ��x ����������x�x�� � x��� �� �xx ��  xxxx�� �x x� �x�� ��  �x��  ���xxx�x�� � � � � � � � � ���x���x ��� ��x �x�x� � �� ��x ����������x�x�� � x��� ��x��xx � �xxx  xxx�x�x�� �x�� �x�x�x�� �x��x  �x��x�x��x�x�xx ���x x�� � x�x x�� �x x  �xx ���x�x� � �x�x�x x��x��x  �  � �x�x x  �x��x�x�x���� ��x �x�x� � �� ��x ����������x�x�� � x���x�����xx � �xxx  xxx�x�x�� �x�� �  � ����� x x x x��x  � � �xxx� � � � � � �x���� � � x��� ��xx��x x�x��� �  x�x x��x� ��x �x�x� � �� ��x ����������x�x�� � x���x�� �xx � �xxx  xxx�x�x�� �x�� �  � ����� x x x�� x  � � �xxx� � � � ����  xx���� � � x � � � ��xx��x x�x��� �  x�x x��x� ��x �x�x� � �� ��x ����������x�x�� � x������x��xx � �xxx  xxx�x�x�� �x�� �  � ����� x x  � �� �� � � �xxx� � � � � ���� x  � � x � �� ��xx��x x�x��� �  xxx�x�x x��x� ��x �x�x� � �� ��x ����������x�x�� � x������ �xx � �xxx  xxx�x�x�� �x�� �  � ����� x x  �����x�� � � �xxx� � � � � �� x x  � � x � � � ��xx��x x�x��� �  xxx�x�x x��x� ��x �x�x� � �� ��x ����������x�x�� � x���������xx � �xxx  xxx�x�x�� �x�� �  � � �� � � ��   xx��  � �xxx� � � � � �������  �� � x������ ��xx��x x�x��� �x�x�x x��x� ��x �x�x� � �� ��x ����������x�x�� � x��� �x��xx ��� x��xx�� �x x� �x�� � �xx �xxx  �xx � ��  �x�� x�� ���xxx�xxx�x��x x� ��x �x�x� � �� ��x ����������x�x�� � x��� � �xx ��� x��xx�� �x x� �x�� ��� �x x� � �x�x�x�� � �x��x�x� ��x �x�x� � �� ��x ����������x�xx � x���x����xx ��� x��xx�� �x x� �x�� �  xx �xxx  �xx � ���x��x�xx x �� �x�����xx�x � �x x�x�xxx� � � �x x� � � �xx ���x��x�xx �x�x� � � �xx �� x��x�x x�x� �x�x��x x�xx � �xxx  �xxx� x��� � �� ��xx�x�x �xxx�x��x�x� � � �xx ���x��x�xx �x�x� � � �xx �� x��x�x x�x� �x�x��x x�xx � �xxx  �xxx�xx�� ��x �x�x� � �� ��x ����������x�x�� � x��� ����xx �x�x x��x�xx �x x�xxx�� ���x �x x� �xx � ���x� ��  xxx ��� ��x �x�x� � �� ��x ����������x�x�� � x��� ����xx �x�x x��x�xx �x x�xxx�� �� x  � �x��x�x� �   xxx�x x��x� xxx�� ��x �x�x� � x�x� �x�x x��x� ���xxx�x  �x��x�x�x� � �� ��x ����������x�x�� � x��� ����xx �x�x x��x�xx �x x�xxx�� ���xx� �xxx�x�xx � ���x�x�x�� �   xxx�x x��x� xxx�� ��x �x�x� � x�x� ���xxx� �x� � x�x� ���xxx xxx��x�xxx� �  �xx � �x�x� � x � ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x3 (DOWNLOAD_BOOT(UART0/UART1/SDIO_REI_REO_V2))
+waiting for download
+�  UU    ��  UU    ��  UU    ��  UU    ��  UU    ��  UU    ��  UU    ��  UU    �ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15532
+load:0x40080400,len:4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (29) boot: ESP-IDF v5.3-dev-1162-gee3a46dbc3 2nd stage bootloader[0m
+[0;32mI (29) boot: compile time Jan  2 2024 15:53:57[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (35) boot: chip revision: v3.0[0m
+[0;32mI (39) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (48) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (58) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (69) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (76) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (84) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (91) boot: End of partition table[0m
+[0;32mI (96) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=09978h ( 39288) map[0m
+[0;32mI (118) esp_image: segment 1: paddr=000199a0 vaddr=3ffb0000 size=02210h (  8720) load[0m
+[0;32mI (121) esp_image: segment 2: paddr=0001bbb8 vaddr=40080000 size=04460h ( 17504) load[0m
+[0;32mI (130) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=136f4h ( 79604) map[0m
+[0;32mI (159) esp_image: segment 4: paddr=0003371c vaddr=40084460 size=088fch ( 35068) load[0m
+[0;32mI (180) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (180) boot: Disabling RNG early entropy source...[0m
+[0;32mI (191) cpu_start: Multicore app[0m
+[0;32mI (200) cpu_start: Pro cpu start user code[0m
+[0;32mI (200) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (200) cpu_start: Application information:[0m
+[0;32mI (203) cpu_start: Project name:     steam_buffer[0m
+[0;32mI (208) cpu_start: App version:      1[0m
+[0;32mI (213) cpu_start: Compile time:     Jan  2 2024 15:53:46[0m
+[0;32mI (219) cpu_start: ELF file SHA256:  f3cc4265c...[0m
+[0;32mI (224) cpu_start: ESP-IDF:          v5.3-dev-1162-gee3a46dbc3[0m
+[0;32mI (231) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (235) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (240) cpu_start: Chip rev:         v3.0[0m
+[0;32mI (245) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (252) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (258) heap_init: At 3FFB2AE0 len 0002D520 (181 KiB): DRAM[0m
+[0;32mI (265) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (271) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (277) heap_init: At 4008CD5C len 000132A4 (76 KiB): IRAM[0m
+[0;32mI (285) spi_flash: detected chip: generic[0m
+[0;32mI (288) spi_flash: flash io: dio[0m
+[0;33mW (292) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (306) main_task: Started on CPU0[0m
+[0;32mI (316) main_task: Calling app_main()[0m
+In main function
+[0;32mI (316) main_task: Returned from app_main()[0m
+In send
+In receive
+hello
+
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x3 (DOWNLOAD_BOOT(UART0/UART1/SDIO_REI_REO_V2))
+waiting for download
+U�  U   U    ��  U    ��  U    ��  U    �ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15532
+load:0x40080400,len:4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (29) boot: ESP-IDF v5.3-dev-1162-gee3a46dbc3 2nd stage bootloader[0m
+[0;32mI (29) boot: compile time Jan  2 2024 15:53:57[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (35) boot: chip revision: v3.0[0m
+[0;32mI (39) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (48) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (58) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI �    WiFi data        01 02 00009000 00006000[0m
+[0;32mI (76) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (84) boot:  2 fa�ets Jul 29 2019�ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x3 (DOWNLOAD_BOOT(UART0/UART1/SDIO_REI_REO_V2))
+waiting for download
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15532
+load:0x40080400,len:4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (29) boot: ESP-IDF v5.3-dev-1162-gee3a46dbc3 2nd stage bootloader[0m
+[0;32mI (29) boot: compile time Jan  2 2024 15:53:57[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (35) boot: chip revision: v3.0[0m
+[0;32mI (39) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (48) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (58) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (69) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (76) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (84) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (91) boot: End of partition table[0m
+[0;32mI (96) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=09978h ( 39288) map[0m
+[0;32mI (118) esp_image: segment 1: paddr=000199a0 vaddr=3ffb0000 size=02210h (  8720) load[0m
+[0;32mI (121) esp_image: segment 2: paddr=0001bbb8 vaddr=40080000 size=04460h ( 17504) load[0m
+[0;32mI (130) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=136f4h ( 79604) map[0m
+[0;32mI (159) esp_image: segment 4: paddr=0003371c vaddr=40084460 size=088fch ( 35068) load[0m
+[0;32mI (180) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (180) boot: Disabling RNG early entropy source...[0m
+[0;32mI (191) cpu_start: Multicore app[0m
+[0;32mI (200) cpu_start: Pro cpu start user code[0m
+[0;32mI (200) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (200) cpu_start: Application information:[0m
+[0;32mI (203) cpu_start: Project name:     steam_buffer[0m
+[0;32mI (208) cpu_start: App version:      1[0m
+[0;32mI (213) cpu_start: Compile time:     Jan  2 2024 15:53:46[0m
+[0;32mI (219) cpu_start: ELF file SHA256:  f3cc4265c...[0m
+[0;32mI (224) cpu_start: ESP-IDF:          v5.3-dev-1162-gee3a46dbc3[0m
+[0;32mI (231) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (235) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (240) cpu_start: Chip rev:         v3.0[0m
+[0;32mI (245) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (252) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (258) heap_init: At 3FFB2AE0 len 0002D520 (181 KiB): DRAM[0m
+[0;32mI (265) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (271) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (2
